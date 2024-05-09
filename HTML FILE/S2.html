@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Item Management</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h2 {
+            text-align: center;
+        }
+        .item-list {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        .item {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        .item img {
+            max-width: 100%;
+            height: auto;
+        }
+        .item-info {
+            margin-top: 10px;
+        }
+        .item-info p {
+            margin: 5px 0;
+        }
+        .item-actions {
+            text-align: right;
+        }
+        .btn {
+            padding: 5px 10px;
+            border: none;
+            border-radius: 3px;
+            background-color: #4CAF50;
+            color: white;
+            cursor: pointer;
+        }
+        .btn:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Item Management</h2>
+        <ul class="item-list">
+            <li class="item">
+                <img src="item1.jpg" alt="Item 1">
+                <div class="item-info">
+                    <p><strong>Item Name:</strong> Product 1</p>
+                    <p><strong>Description:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p><strong>Price:</strong> $50</p>
+                </div>
+                <div class="item-actions">
+                    <button class="btn">Edit</button>
+                    <button class="btn">Delete</button>
+                </div>
+            </li>
+            <li class="item">
+                <img src="item2.jpg" alt="Item 2">
+                <div class="item-info">
+                    <p><strong>Item Name:</strong> Product 2</p>
+                    <p><strong>Description:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p><strong>Price:</strong> $80</p>
+                </div>
+                <div class="item-actions">
+                    <button class="btn">Edit</button>
+                    <button class="btn">Delete</button>
+                </div>
+            </li>
+            <!-- More items can be added here -->
+        </ul>
+        <a href="S3.html">SUBMIT</a>
+    </div>
+</body>
+</html>
